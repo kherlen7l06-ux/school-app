@@ -1,4 +1,4 @@
--- 1. Мэдээллийн хүснэгт
+//1. Мэдээллийн хүснэгт
 create table if not exists news (
   id text primary key,
   title text not null,
