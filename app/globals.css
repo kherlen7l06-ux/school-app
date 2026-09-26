@@ -1,9 +1,7 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Элементүүдийн үндсэн тохиргоо */
 * {
   box-sizing: border-box;
   margin: 0;
