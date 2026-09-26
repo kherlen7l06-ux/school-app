@@ -1,5 +1,12 @@
 //1. Мэдээллийн хүснэгт
-create table if not exists news (
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <h1 className="text-4xl font-bold">Classroom App</h1>
+      <p className="mt-4 text-gray-600">Систем амжилттай байршлаа!</p>
+    </main>
+  );
+}
   id text primary key,
   title text not null,
   content text,
